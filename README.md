@@ -19,3 +19,6 @@ The new pic chip is *not* USB-powered. Thus, you will need an external power sou
 (But make sure not to fry it--Andrew used a reg to adjust the voltage)
 
 In terms of how we actually get the program onto the board, we  use a Pickit 3 (which *is* USB-interfacing) which attaches to the pins of the smaller microcontroller.   
+
+
+Possibly useful link: http://www.circuitstoday.com/pic-tutorial-16f877
