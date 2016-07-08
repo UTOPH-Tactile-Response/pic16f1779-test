@@ -12,3 +12,7 @@ Download xc8 (C compiler)
 
 Pretty much just check out this guide:
 http://ww1.microchip.com/downloads/en/DeviceDoc/50002173A.pdf
+
+## Hardware
+The new pic chip is *not* USB-powered. Thus, you will need an external power source (like a 9V) to power it.
+
