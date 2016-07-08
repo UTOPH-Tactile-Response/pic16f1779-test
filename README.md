@@ -1,5 +1,6 @@
 # pic16f1779-test
 A new hardware approach 
+## Reasons for change
 
 # Setup Instructions
 Download MPLab X IDE
