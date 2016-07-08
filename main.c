@@ -40,7 +40,7 @@
 int main()
 {
     TRISA = 0x0;
-    LATA = 0xFF;
+    LATA = 0xFF; //FF turns on all the pins
     
   return 0;
 }
