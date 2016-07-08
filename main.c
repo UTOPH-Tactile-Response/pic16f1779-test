@@ -39,8 +39,9 @@
 
 int main()
 {
-    TRISA = 0x0;
-    LATA = 0xFF; //FF turns on all the pins
+    TRISA = 0x0; //these are likely RISC/MIPS instructions (35 of them in total)
+    LATA = 0xFF; //setting it to FF turns on all the pins--that is we can read high voltage at all the 
+    //pins, using a multimeter
     
   return 0;
 }
