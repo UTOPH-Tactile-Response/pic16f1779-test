@@ -1,6 +1,6 @@
 # pic16f1779-test
 A new hardware approach 
-## Reasons for change
+## *Reasons for change*
 The Arduino does not have enough PWM pins, which we will need to control the servo motors in the multi-jointed hand
 We're not really using the processing power of the Arduino
 The pic microcontroller is much cheaper ($3 vs $50)
