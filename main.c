@@ -40,8 +40,40 @@
 int main()
 {
     TRISA = 0x0; //these are likely RISC/MIPS instructions (35 of them in total)
-    LATA = 0xFF; //setting it to FF turns on all the pins--that is we can read high voltage at all the 
-    //pins, using a multimeter
     
-  return 0;
+    while (1)
+    {
+        _delay(25000);
+        LATA = 0x6F; //Latch A --corresponds to a set of pins
+        _delay(25000);
+        LATA = 0x0C; //we set the hex value in binary and such
+        _delay(25000);
+        LATA = 0x5B;
+        _delay(25000);
+        LATA = 0x5D;
+        _delay(25000);
+        LATA = 0x3C;
+        _delay(25000);
+        LATA = 0x75;
+        _delay(25000);
+        LATA = 0x77;
+        _delay(25000);
+        LATA = 0x4C;
+        _delay(25000);
+        LATA = 0x7F;
+        _delay(25000);
+        LATA = 0x7D;
+    }
+    
+    //Code for servo motor control
+    //Principles are to use the delay to selectively give voltage to the motor, thus simulating a PWM (pulse width modulation)
+    
+    while (1)
+    {
+        //_delay for a while with the voltage on -- this will cause the servo motor to change angular position 
+        
+        
+    }
+    
+    return 0;
 }
