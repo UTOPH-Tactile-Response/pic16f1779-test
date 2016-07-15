@@ -44,7 +44,7 @@ int main()
     while (1)
     {
         _delay(25000);
-        LATA = 0x6F;
+        LATA = 0x6F; //Latch A --corresponds to a set of pins
         _delay(25000);
         LATA = 0x0C;
         _delay(25000);
