@@ -46,7 +46,7 @@ int main()
         _delay(25000);
         LATA = 0x6F; //Latch A --corresponds to a set of pins
         _delay(25000);
-        LATA = 0x0C;
+        LATA = 0x0C; //we set the hex value in binary and such
         _delay(25000);
         LATA = 0x5B;
         _delay(25000);
