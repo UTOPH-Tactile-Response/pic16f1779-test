@@ -68,5 +68,12 @@ int main()
     //Code for servo motor control
     //Principles are to use the delay to selectively give voltage to the motor, thus simulating a PWM (pulse width modulation)
     
+    while (1)
+    {
+        //_delay for a while with the voltage on -- this will cause the servo motor to change angular position 
+        
+        
+    }
+    
     return 0;
 }
