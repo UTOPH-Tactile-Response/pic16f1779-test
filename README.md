@@ -22,3 +22,5 @@ In terms of how we actually get the program onto the board, we  use a Pickit 3 (
 
 
 Possibly useful link: http://www.circuitstoday.com/pic-tutorial-16f877
+
+Pin layout: http://ww1.microchip.com/downloads/en/DeviceDoc/40001819A.pdf
