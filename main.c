@@ -40,8 +40,30 @@
 int main()
 {
     TRISA = 0x0; //these are likely RISC/MIPS instructions (35 of them in total)
-    LATA = 0xFF; //setting it to FF turns on all the pins--that is we can read high voltage at all the 
-    //pins, using a multimeter
     
-  return 0;
+    while (1)
+    {
+        _delay(25000);
+        LATA = 0x6F;
+        _delay(25000);
+        LATA = 0x0C;
+        _delay(25000);
+        LATA = 0x5B;
+        _delay(25000);
+        LATA = 0x5D;
+        _delay(25000);
+        LATA = 0x3C;
+        _delay(25000);
+        LATA = 0x75;
+        _delay(25000);
+        LATA = 0x77;
+        _delay(25000);
+        LATA = 0x4C;
+        _delay(25000);
+        LATA = 0x7F;
+        _delay(25000);
+        LATA = 0x7D;
+    }
+    
+    return 0;
 }
