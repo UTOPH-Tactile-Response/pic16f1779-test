@@ -65,5 +65,8 @@ int main()
         LATA = 0x7D;
     }
     
+    //Code for servo motor control
+    //Principles are to use the delay to selectively give voltage to the motor, thus simulating a PWM (pulse width modulation)
+    
     return 0;
 }
