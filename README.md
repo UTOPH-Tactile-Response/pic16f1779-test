@@ -24,3 +24,7 @@ In terms of how we actually get the program onto the board, we  use a Pickit 3 (
 Possibly useful link: http://www.circuitstoday.com/pic-tutorial-16f877
 
 Pin layout: http://ww1.microchip.com/downloads/en/DeviceDoc/40001819A.pdf
+
+# Hardware Layout
+Middle wire should go to big terminal and small wire should go to little terminal.
+(the wire that is connected to the ground should go to the big terminal)
