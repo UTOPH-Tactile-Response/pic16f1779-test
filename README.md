@@ -28,3 +28,5 @@ Pin layout: http://ww1.microchip.com/downloads/en/DeviceDoc/40001819A.pdf
 # Hardware Layout
 Middle wire should go to big terminal and small wire should go to little terminal.
 (the wire that is connected to the ground should go to the big terminal)
+
+Black middle red right
