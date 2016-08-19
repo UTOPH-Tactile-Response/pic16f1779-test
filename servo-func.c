@@ -48,7 +48,7 @@ int main()
     while (i < 10)
     {
         LATA = 0xFF;
-        __delay_ms(1);
+        __delay_ms(1); //sets it to the middle roughly(around 120)
         LATA = 0x00;
         __delay_ms(20);
         i++;
@@ -59,7 +59,7 @@ int main()
     while (i < 10)
     {
         LATA = 0xFF;
-        __delay_ms(1.5);
+        __delay_ms(1.5); //sets it to 180 
         LATA = 0x00;
         __delay_ms(20);
         i++;
