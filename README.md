@@ -1,7 +1,11 @@
 # pic16f1779-test
 next level help: http://www.microchip.com/forums/m839336.aspx
 ADCON0 is 490
-
+http://www.circuitsgallery.com/2013/09/analog-digital-converter-using-pic2.html
+adc pic microcontroller
+http://extremeelectronics.co.in/microchip-pic-tutorials/using-adc-of-pic-microcontroller/
+http://www.microcontrollerboard.com/analog-to-digital-converter.html
+http://picguides.com/beginner/adc.php
 ## Aug 18
 One issue is that we need to configure the servo to respond to different levels of the 
 
