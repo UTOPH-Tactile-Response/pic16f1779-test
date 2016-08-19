@@ -1,4 +1,9 @@
 # pic16f1779-test
+next level help: http://www.microchip.com/forums/m839336.aspx
+ADCON0 is 490
+
+## Aug 18
+One issue is that we need to configure the servo to respond to different levels of the 
 
 ## August 11 update
 Currently trying to figure out how to read the data from the pins on the pic. There is no equivalent to Arduino's simple read(). The pic programming cable is NOT a serial cable thing, we cannot use it to get data from the pic like that. Instead, we need something to set up UART or another cable for serial communications.
