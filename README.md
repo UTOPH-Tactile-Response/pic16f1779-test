@@ -1,4 +1,11 @@
 # pic16f1779-test
+
+## Aug 25 update
+Finally got the potentiometer and servo working together! Currently the potentiometer works as a binary switch: when we move the knob on the potentiometer all the way to one side, it skips the code Andrew posted. Else, it runs the code that Andrew did. 
+
+For next week, we should consider hooking up a serial communication with the computer from the PIC.
+
+
 next level help: http://www.microchip.com/forums/m839336.aspx
 ADCON0 is 490
 http://www.circuitsgallery.com/2013/09/analog-digital-converter-using-pic2.html
