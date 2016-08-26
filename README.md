@@ -4,6 +4,7 @@
 Finally got the potentiometer and servo working together! Currently the potentiometer works as a binary switch: when we move the knob on the potentiometer all the way to one side, it skips the code Andrew posted. Else, it runs the code that Andrew did. 
 
 For next week, we should consider hooking up a serial communication with the computer from the PIC.
+We also need to consider how the servo will respond to different levels of the potentiometer. It probably can't be binary like now!
 
 ## Aug 18
 One issue is that we need to configure the servo to respond to different levels of the 
