@@ -5,7 +5,7 @@
  * Created on 30 juillet 2016, 23:57
  */
 
-
+//This code oscillates the servo from 120 back to 180
 
 // PIC16F1779 Configuration Bit Settings
 
