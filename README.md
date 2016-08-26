@@ -7,6 +7,7 @@ For next week, we should consider hooking up a serial communication with the com
 We also need to consider how the servo will respond to different levels of the potentiometer. It probably can't be binary like now!
 
 Far future: working in unity and C# to integrate the serial data received from the pic into unity
+https://unity3d.com/learn/tutorials/topics/scripting/coding-unity-absolute-beginner
 
 ## Aug 18
 One issue is that we need to configure the servo to respond to different levels of the 
