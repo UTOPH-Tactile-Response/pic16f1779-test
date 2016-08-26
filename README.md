@@ -6,6 +6,8 @@ Finally got the potentiometer and servo working together! Currently the potentio
 For next week, we should consider hooking up a serial communication with the computer from the PIC.
 We also need to consider how the servo will respond to different levels of the potentiometer. It probably can't be binary like now!
 
+Far future: working in unity and C# to integrate the serial data received from the pic into unity
+
 ## Aug 18
 One issue is that we need to configure the servo to respond to different levels of the 
 next level help: http://www.microchip.com/forums/m839336.aspx
